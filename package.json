@@ -7,7 +7,7 @@
   "module": "es/index.js",
   "sideEffects": false,
   "scripts": {
-    "build": "babel src --out-dir es && rollup -c",
+    "build": "babel src --out-dir lib",
     "postbuild": "npm run size",
     "clean": "rimraf es lib coverage",
     "test": "cross-env NODE_ENV=test jest src es",
