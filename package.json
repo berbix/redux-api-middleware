@@ -2,9 +2,7 @@
   "name": "redux-api-middleware",
   "version": "3.0.1",
   "description": "Redux middleware for calling an API.",
-  "main": "lib/index.cjs.js",
-  "browser": "lib/index.umd.js",
-  "module": "es/index.js",
+  "main": "lib/index.js",
   "sideEffects": false,
   "scripts": {
     "build": "babel src --out-dir lib",
