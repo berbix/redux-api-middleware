@@ -45,6 +45,8 @@
     "jest": "^23.6.0",
     "jest-fetch-mock": "^1.7.4",
     "prettier": "^1.15.2",
+    "regenerator-runtime": "0.13.2",
+    "regenerator-transform": "0.13.4",
     "rimraf": "^2.6.2",
     "rollup": "^0.67.1",
     "rollup-plugin-babel": "^4.0.3",
